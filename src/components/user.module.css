@@ -1,0 +1,59 @@
+.container{
+
+    background-color: rgb(5, 41, 75);
+    height: auto;
+    width: 280px;
+    border: 2px solid blue;
+     margin: auto;
+     border-radius: 12px;
+}
+.container img{
+    height:180px;
+    width: 150px;
+   margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 50%;
+   
+}
+.avatar{
+    background-color: rgb(18, 112, 199);
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+    border-radius: 8px;
+}
+.footer img{
+    height: 30px;
+    width: 30px;
+    margin-top: 2px;
+    padding-top: 2px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.login{
+color: rgb(18, 18, 197);
+padding-left: 70px;
+font-size: 20px;
+padding-top: 10px;
+}
+.lastLogin{
+    padding-top: 2px;
+}
+.text{
+   margin-left: 40px;
+    color: white;
+    font-size: 17px;
+    width: 210px;
+}
+.id{
+    color: white;
+    text-align: center;
+}
+.footer{
+    display: grid;
+grid-template-columns: 1fr 1fr;
+color: rgb(11, 165, 236);
+}
+hr{
+    width: 90%;
+}
